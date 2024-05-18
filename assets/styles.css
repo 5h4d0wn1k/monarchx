@@ -1,0 +1,79 @@
+body {
+    background-color: #f0f8ff;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    background-color: #fffacd;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.2em;
+    color: #696969;
+    margin-bottom: 20px;
+}
+
+.funny-button {
+    background-color: #ffb6c1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.funny-button:hover {
+    background-color: #ff69b4;
+    transform: scale(1.1);
+}
+
+.response {
+    font-size: 1.5em;
+    color: #ff69b4;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2em;
+    }
+
+    .description {
+        font-size: 1em;
+    }
+
+    .funny-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .response {
+        font-size: 1.2em;
+    }
+}

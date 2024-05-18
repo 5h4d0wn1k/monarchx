@@ -1,46 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fidu's Quote Website</title>
-  <link rel="stylesheet" href="assets/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InspireMe</title>
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <header>
-    <h1>Fidu's Quote Website</h1>
+    <header>
+        <h1>InspireMe</h1>
+        <p>Your daily dose of positivity</p>
+    </header>
     <nav>
-      <menu>
-        <span>Home</span>
-        <span>About</span>
-        <span>Quotes</span>
-        <span>Contact</span>
-      </menu>
+        <a href="#home">Home</a>
+        <a href="#quotes">Quotes</a>
+        <a href="#submit">Submit Quote</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
     </nav>
-  </header>
-  <main>
-    <section class="videoWrapper">
-      <iframe width="560" height="349" src="https://www.youtube.com/embed/n_dZNLr2cME" frameborder="0" allowfullscreen></iframe>
-    </section>
-    <section class="quotes">
-      <h2>Quotes</h2>
-      <div class="quote">
-        <p>"The only way to do great work is to love what you do."</p>
-        <cite>Steve Jobs</cite>
-      </div>
-      <div class="quote">
-        <p>"Believe you can and you're halfway there."</p>
-        <cite>Theodore Roosevelt</cite>
-      </div>
-      <div class="quote">
-        <p>"Success is not final, failure is not fatal: it is the courage to continue that counts."</p>
-        <cite>Winston Churchill</cite>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 Fidu's Quote Website</p>
-  </footer>
-  <script src="assets/script.js"></script>
+    <div class="container" id="quotes">
+        <div class="quote">
+            <p>"The only way to do great work is to love what you do." – Steve Jobs</p>
+        </div>
+        <div class="quote">
+            <p>"The best way to predict the future is to invent it." – Alan Kay</p>
+        </div>
+        <div class="quote">
+            <p>"You miss 100% of the shots you don't take." – Wayne Gretzky</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 InspireMe. All rights reserved. Created by Fidu.</p>
+    </footer>
+    <script src="assets/script.js"></script>
 </body>
 </html>

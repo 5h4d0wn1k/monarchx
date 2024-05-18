@@ -3,17 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Funny Cute Page</title>
-    <link rel="stylesheet" href="assets/styles.css">
+    <title>FunnyHub</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #ff5722;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .item {
+            flex: 1 1 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .item img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff5722;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>FunnyHub</h1>
+            <p>Your daily dose of laughter!</p>
+        </div>
+    </header>
     <div class="container">
-        <h1 class="title">Welcome to the Funny Cute Page!</h1>
-        <p class="description">Click the button below to see something fun!</p>
-        <button id="funnyButton" class="funny-button">Click Me!</button>
-        <p id="response" class="response"></p>
+        <div class="content">
+            <div class="item">
+                <img src="https://media.giphy.com/media/3o85xnoIXebk3xYxU8/giphy.gif" alt="Funny GIF">
+                <p>When you realize it's Monday again...</p>
+            </div>
+            <div class="item">
+                <img src="https://media.giphy.com/media/l0HUpt2s9Pclgt9Vm/giphy.gif" alt="Funny GIF">
+                <p>Trying to act normal after embarrassing yourself in public.</p>
+            </div>
+            <div class="item">
+                <img src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif" alt="Funny GIF">
+                <p>When you finally understand the joke everyone is laughing at.</p>
+            </div>
+            <div class="item">
+                <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="Funny GIF">
+                <p>Me trying to get my life together like...</p>
+            </div>
+            <div class="item">
+                <img src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" alt="Funny GIF">
+                <p>When you see your crush and forget how to human.</p>
+            </div>
+            <div class="item">
+                <img src="https://media.giphy.com/media/l0HlCxpGKYz5vd8Ry/giphy.gif" alt="Funny GIF">
+                <p>When you successfully avoid someone you didn't want to talk to.</p>
+            </div>
+        </div>
     </div>
-    <script src="assets/script.js"></script>
+    <footer>
+        <p>&copy; 2024 FunnyHub. All rights reserved.</p>
+    </footer>
 </body>
 </html>
-
